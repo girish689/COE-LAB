@@ -1,0 +1,20 @@
+#how to bulid simple calculator inpython-->
+print('''
++ ADD
+- SUBTRACT
+* MULTIPLY
+/ DIVISION
+''')
+a=int(input("Enter the value1"))
+b=int(input("Enter the value2"))
+c=input("Enter the operator")
+if c=="+" :#true-->a+b-->after this it will out of loop
+    print(a+b)
+if c=="-":#false
+    print(a-b)
+if c=="*":#false
+    print(a*b)
+if c=="/":#false
+    print(a/b)
+if c!="+" and c!="-" and c!="*" and c!="/":
+    print("invalid input")
